@@ -8,7 +8,7 @@
 /* YourName by @you -------------------------------------------- */
 
 .yourClass {
-	background-size: 20px;
+	background-size: 20px 20px;
 	background-image: -webkit-repeating-radial-gradient( white 10px, black 30px);
 }
 .yourClass:hover { 
@@ -18,8 +18,8 @@
 /* .yourClass { -webkit-animation: yourAnimation 1s linear infinite; -webkit-transform: scale(1); } */
 
 @-webkit-keyframes yourAnimation {
-    from { background-size:  20px; }
-    to   { background-size: 100px; }
+    from { background-size:  20px 20px; }
+    to   { background-size: 100px 100px; }
 }
 
 
@@ -32,7 +32,7 @@
 /* Particle Ping Pong by @simurai -------------------------------------------- */
 
 .particle {
-	background-size: 12px;
+	background-size: 12px 12px;
 	background-color: #000;
 	
 	/* the default highlight was too strong */ 
@@ -57,11 +57,11 @@
 			animation: particle-size .24s linear infinite, particle-positon .48s linear infinite alternate; 
 }
 
-@-webkit-keyframes particle-size { from { background-size: 6px, 12px; } to { background-size: 12px, 24px; } }
-   @-moz-keyframes particle-size { from { background-size: 6px, 12px; } to { background-size: 12px, 24px; } }
-	@-ms-keyframes particle-size { from { background-size: 6px, 12px; } to { background-size: 12px, 24px; } }
-	 @-o-keyframes particle-size { from { background-size: 6px, 12px; } to { background-size: 12px, 24px; } }
-		@keyframes particle-size { from { background-size: 6px, 12px; } to { background-size: 12px, 24px; } }
+@-webkit-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+   @-moz-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+	@-ms-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+	 @-o-keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
+		@keyframes particle-size { from { background-size: 6px 6px, 12px 12px; } to { background-size: 12px 12px, 24px 24px; } }
 
 @-webkit-keyframes particle-positon { from { background-position: 60px, 60px; } to { background-position: 140px, 140px; } }
    @-moz-keyframes particle-positon { from { background-position: 60px, 60px; } to { background-position: 140px, 140px; } }
@@ -75,7 +75,7 @@
 /* Growing cells by @simurai -------------------------------------------- */
 
 .cells {
-	background-size: 24px;
+	background-size: 24px 24px;
 	background-color: #fff;
 	background-image: -webkit-repeating-radial-gradient( black 8px, white 12px);
 	background-image:    -moz-repeating-radial-gradient( black 8px, white 12px);
@@ -90,11 +90,11 @@
 		 -o-animation: cells 0.4s linear infinite; 
 			animation: cells 0.4s linear infinite; 
 }
-@-webkit-keyframes cells { from { background-size: 12px; } to { background-size: 24px; } }
-   @-moz-keyframes cells { from { background-size: 12px; } to { background-size: 24px; } }
-	@-ms-keyframes cells { from { background-size: 12px; } to { background-size: 24px; } }
-	 @-o-keyframes cells { from { background-size: 12px; } to { background-size: 24px; } }
-		@keyframes cells { from { background-size: 12px; } to { background-size: 24px; } }
+@-webkit-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+   @-moz-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+	@-ms-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+	 @-o-keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
+		@keyframes cells { from { background-size: 12px 12px; } to { background-size: 24px 24px; } }
 
 
 
@@ -103,7 +103,7 @@
 /* Jelly by @simurai -------------------------------------------- */
 
 .jelly {
-	background-size: 60px;
+	background-size: 60px 60px;
 	background-color: hsla(320,80%,60%,1);
 
 	background-image: 	-webkit-repeating-radial-gradient( hsla(320,100%,60%,.6) 0px, hsla(220,100%,60%,0) 60%),
@@ -126,29 +126,29 @@
 }
 
 @-webkit-keyframes jelly {
-    from { background-size:  60px,  24px; }
-    50%  { background-size: 120px, 100px; }
-    to   { background-size:  24px, 140px; }
+    from { background-size:  60px 60px,  24px 24px; }
+    50%  { background-size: 120px 120px, 100px 100px; }
+    to   { background-size:  24px 24px, 140px 140px; }
 }
 @-moz-keyframes jelly {
-    from { background-size:  60px,  24px; }
-    50%  { background-size: 120px, 100px; }
-    to   { background-size:  24px, 140px; }
+    from { background-size:  60px 60px,  24px 24px; }
+    50%  { background-size: 120px 120px, 100px 100px; }
+    to   { background-size:  24px 24px, 140px 140px; }
 }
 @-webkit-keyframes jelly {
-    from { background-size:  60px,  24px; }
-    50%  { background-size: 120px, 100px; }
-    to   { background-size:  24px, 140px; }
+    from { background-size:  60px 60px,  24px 24px; }
+    50%  { background-size: 120px 120px, 100px 100px; }
+    to   { background-size:  24px 24px, 140px 140px; }
 }
 @-webkit-keyframes jelly {
-    from { background-size:  60px,  24px; }
-    50%  { background-size: 120px, 100px; }
-    to   { background-size:  24px, 140px; }
+    from { background-size:  60px 60px,  24px 24px; }
+    50%  { background-size: 120px 120px, 100px 100px; }
+    to   { background-size:  24px 24px, 140px 140px; }
 }
 @-webkit-keyframes jelly {
-    from { background-size:  60px,  24px; }
-    50%  { background-size: 120px, 100px; }
-    to   { background-size:  24px, 140px; }
+    from { background-size:  60px 60px,  24px 24px; }
+    50%  { background-size: 120px 120px, 100px 100px; }
+    to   { background-size:  24px 24px, 140px 140px; }
 }
 
 
@@ -157,7 +157,7 @@
 /* Blobbs by @simurai -------------------------------------------- */
 
 .blobbs {
-	background-size: 66px;
+	background-size: 66px 66px;
 	background-color: hsl(200,100%,50%);
 	
 	background-image: 	-webkit-repeating-radial-gradient( hsla(200,100%,80%,.8) 0px, hsla(200,100%,80%,.5) 4px, hsla(200,100%,80%,0) 50px),
@@ -220,11 +220,11 @@
     100% { background-position: left  top,		left  top; }
 }
 
-@-webkit-keyframes blobbs-size { from { background-size: 200px, 200px; } to { background-size:  66px, 66px; } }
-   @-moz-keyframes blobbs-size { from { background-size: 200px, 200px; } to { background-size:  66px, 66px; } }
-	@-ms-keyframes blobbs-size { from { background-size: 200px, 200px; } to { background-size:  66px, 66px; } }
-	 @-o-keyframes blobbs-size { from { background-size: 200px, 200px; } to { background-size:  66px, 66px; } }
-		@keyframes blobbs-size { from { background-size: 200px, 200px; } to { background-size:  66px, 66px; } }
+@-webkit-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px 66px, 66px 66px; } }
+   @-moz-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px 66px, 66px 66px; } }
+	@-ms-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px 66px, 66px 66px; } }
+	 @-o-keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px 66px, 66px 66px; } }
+		@keyframes blobbs-size { from { background-size: 200px 200px, 200px 200px; } to { background-size:  66px 66px, 66px 66px; } }
 
 
 
@@ -233,7 +233,7 @@
 
 .chase {
 	background-repeat: no-repeat, repeat;
-	background-size: 180px;
+	background-size: 180px 180px;
 	background-color: hsl(50,100%,70%);
 	
 	background-image: 	-webkit-repeating-radial-gradient( hsla(50,100%,100%,1) 0px, hsla(50,100%,90%, 1) 10px, hsla(50,100%,70%,.2)  12px, hsla(50,100%,70%,0) 130px),
@@ -292,29 +292,29 @@
 }
 
 @-webkit-keyframes chase-size {
-    from { background-size: 120px, 300px; }
-     50% { background-size: 160px, 150px; }
-    to   { background-size: 180px, 100px; }
+    from { background-size: 120px 120px, 300px 300px; }
+     50% { background-size: 160px 160px, 150px 150px; }
+    to   { background-size: 180px 180px, 100px 100px; }
 }
 @-moz-keyframes chase-size {
-    from { background-size: 120px, 300px; }
-     50% { background-size: 160px, 150px; }
-    to   { background-size: 180px, 100px; }
+    from { background-size: 120px 120px, 300px 300px; }
+     50% { background-size: 160px 160px, 150px 150px; }
+    to   { background-size: 180px 180px, 100px 100px; }
 }
 @-ms-keyframes chase-size {
-    from { background-size: 120px, 300px; }
-     50% { background-size: 160px, 150px; }
-    to   { background-size: 180px, 100px; }
+    from { background-size: 120px 120px, 300px 300px; }
+     50% { background-size: 160px 160px, 150px 150px; }
+    to   { background-size: 180px 180px, 100px 100px; }
 }
 @-o-keyframes chase-size {
-    from { background-size: 120px, 300px; }
-     50% { background-size: 160px, 150px; }
-    to   { background-size: 180px, 100px; }
+    from { background-size: 120px 120px, 300px 300px; }
+     50% { background-size: 160px 160px, 150px 150px; }
+    to   { background-size: 180px 180px, 100px 100px; }
 }
 @keyframes chase-size {
-    from { background-size: 120px, 300px; }
-     50% { background-size: 160px, 150px; }
-    to   { background-size: 180px, 100px; }
+    from { background-size: 120px 120px, 300px 300px; }
+     50% { background-size: 160px 160px, 150px 150px; }
+    to   { background-size: 180px, 100px 100px; } }
 }
 
 
